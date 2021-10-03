@@ -1,2 +1,4 @@
+Neog - Level 0
+
 # Cash_Registry
-Created with CodeSandbox
+A vanilla js app to get the amount of change for a bill amount.
