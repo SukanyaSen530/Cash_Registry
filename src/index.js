@@ -52,6 +52,7 @@ next_btn.addEventListener("click", function () {
 get_change_btn.addEventListener("click", function () {
   bill_amount = Number(bill_input.value);
   cash_amount = Number(cash_input.value);
+  change_div.innerHTML = "";
   if (!bill_amount) alert("Please Enter The Bill Amount!");
   else if (bill_amount < 0 && cash_amount < 0)
     alert("Bill Amount & Cash Amount can't be negative!");
