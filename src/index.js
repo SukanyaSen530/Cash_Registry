@@ -65,7 +65,8 @@ get_change_btn.addEventListener("click", function () {
 
       if (change < 0) {
         alert("Cash insufficient!");
-      } else {
+      } else if (change === 0) alert("No change to return!");
+      else {
         const result_ul = getChange(change);
 
         change_div.append(result_ul);
